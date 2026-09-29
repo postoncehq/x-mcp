@@ -13,6 +13,8 @@ Claude: Drafted it with the x-tweet-generator skill: 241 characters, the
         Scheduled on PostOnce for Wed 10:00 on @acme.
 ```
 
+Full setup guide with examples: [postonce.to/mcp/x](https://postonce.to/mcp/x)
+
 ## What you can do
 
 | Ask your agent to | How it works |
