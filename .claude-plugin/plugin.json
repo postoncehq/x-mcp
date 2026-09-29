@@ -1,0 +1,19 @@
+{
+  "name": "x-mcp",
+  "version": "0.1.0",
+  "description": "X (Twitter) MCP server and skills: write, publish and schedule X (Twitter) posts with images, GIFs and video through X's official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce",
+    "url": "https://postonce.to"
+  },
+  "homepage": "https://github.com/postoncehq/x-mcp",
+  "repository": "https://github.com/postoncehq/x-mcp",
+  "license": "MIT",
+  "keywords": [
+    "x",
+    "x-mcp",
+    "mcp",
+    "social-media",
+    "postonce"
+  ]
+}

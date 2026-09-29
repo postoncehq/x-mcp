@@ -1,0 +1,23 @@
+{
+  "name": "x-mcp",
+  "version": "0.1.0",
+  "description": "X (Twitter) MCP server and skills: write, publish and schedule X (Twitter) posts with images, GIFs and video through X's official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce"
+  },
+  "homepage": "https://github.com/postoncehq/x-mcp",
+  "license": "MIT",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "POSTONCE_API_KEY": {
+        "type": "string",
+        "title": "PostOnce API key",
+        "description": "PostOnce API key. Create one in PostOnce preferences; never paste it into chat.",
+        "writeOnly": true
+      }
+    }
+  },
+  "skills": "./skills/",
+  "mcpServers": "./cursor.mcp.json"
+}

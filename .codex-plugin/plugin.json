@@ -1,0 +1,23 @@
+{
+  "name": "x-mcp",
+  "version": "0.1.0",
+  "description": "X (Twitter) MCP server and skills: write, publish and schedule X (Twitter) posts with images, GIFs and video through X's official API, via PostOnce.",
+  "author": {
+    "name": "PostOnce"
+  },
+  "homepage": "https://github.com/postoncehq/x-mcp",
+  "skills": "./skills/",
+  "mcpServers": "./codex.mcp.json",
+  "interface": {
+    "displayName": "X MCP",
+    "shortDescription": "Write, publish and schedule tweets on X (Twitter).",
+    "longDescription": "Tweet, thread, bio, formatting and content calendar skills for X (Twitter), publishing through PostOnce to X and every other connected platform. Publishing goes through X's official API, via PostOnce.",
+    "developerName": "PostOnce",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": "Write a tweet about this update and schedule it for tomorrow at 10am."
+  }
+}
